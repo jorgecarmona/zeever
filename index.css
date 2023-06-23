@@ -217,30 +217,6 @@ ul li {
   margin-bottom: 40px;
 }
 
-/* hero elements transitions */
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.hero-container h5, .cta {
-  animation: slideInFromLeft 0.7s ease-in;
-}
-
-.hero-container h1 {
-  opacity: 0;
-}
-
-.hero-container h1 {
-  animation: slideInFromLeft 0.5s ease-in 1s forwards;
-}
-
 .box {
   border: 2px solid var(--tertiary-bg);
   padding: 50px 30px;
