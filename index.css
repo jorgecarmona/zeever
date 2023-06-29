@@ -392,14 +392,17 @@ ul li {
   text-align: center;
 }
 
-.news-container table {
+.container {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
-.news-container td {
-  vertical-align: top;
-  width: 33%;
-  padding: 0 40px;
+.column1,
+.column2,
+.column3 {
+  flex: 1;
+  padding: 0 44px;
 }
 
 .news-container h4 {
