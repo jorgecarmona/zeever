@@ -344,7 +344,17 @@ ul li {
   padding: 41px 42px 82px;
   margin: 0 10px;
   position: relative;
-  /* height: 275p x; */
+  
+}
+
+.testimonial-ex-table {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.testimonial-container {
+  
 }
 
 .testimonial p {
