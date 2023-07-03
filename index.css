@@ -453,17 +453,23 @@ ul li {
   margin: 39px 0 0
 }
 
-.footer-section table {
+.footer-section {
   width: 100%;
 }
 
-.footer-menu table td { 
+.footer-menu { 
+  display: flex;
   vertical-align: top;
   padding-right: 40px;
 }
 
-.footer-menu table td:first-child {
-  width: 30%;
+.footer-menu div {
+  flex: 1;
+}
+
+.footer-menu div:first-child {
+  /*width: 30%;*/
+  flex: 1.7;
 }
 
 .footer-menu-block h6 {
@@ -484,10 +490,16 @@ ul li {
   display: block;
 }
 
-.copyright-social table {
+.copyright-social {
+  display: flex;
   border-top: 1px solid #1e1e1e;
 }
 
-.copyright-social td:last-child {
+.copyright-social div {
+  flex: 1;
+}
+
+.copyright-social div:last-child {
+  margin-top: 20px;
   text-align: right;
 }
