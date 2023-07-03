@@ -281,61 +281,28 @@ ul li {
 
 /* About section */
 .about-section {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 15px;
+  overflow: hidden;
+}
+ 
+.container {
+display: flex;
+}
+
+.box {
   background-color: var(--primary-bg);
 }
 
-.about-grid td {
-  vertical-align: top;
-  padding: 0 10px;
+.box {
+  display: flex;
 }
-
-.about-grid td:last-child div:first-child {
-  margin-bottom: 20px;
-}
-
-.about-grid .left,
-.about-grid .top,
-.about-grid .bottom {
-  position: relative;
-}
-
-.about-grid .left .image-caption {
-  position: absolute;
-  top: 500px;
-  left: 20px;
-}
-
-.about-grid .top .image-caption,
-.about-grid .bottom .image-caption {
-  position: absolute;
-  top: 200px;
-  left: 20px;
-}
-
-.about-grid td:last-child div.image-caption:last-child {
-  position: absolute;
-  top: 200px;
-  left: 20px;
-}
-
-.image-caption h4,
-.image-caption p,
-.about-text-block h4 {
-  text-transform: capitalize;
-}
-
-.about-section table:last-child {
-  margin-top: 100px;
-}
-
-.about-section table:last-child td {
-  padding-right: 60px;
-}
-
-/* Testimonials Section */
-.testimonials-section {
-  background-color: var(--tertiary-bg);
-}
+.box {
+    border: hidden;
+    padding: 50px 30px;
+    margin: 0 50px;
+  }
 
 .testimonial {
   background-color: var(--primary-bg);
