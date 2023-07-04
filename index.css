@@ -141,13 +141,27 @@ ul li {
   padding: 15px;
   overflow: hidden;
 }
-
 .hero-section {
   background-color: var(--primary-bg);
   background-image: url(./img/flamingos.svg);
   padding: 0 0 180px;
   background-repeat: no-repeat;
 }
+
+.flex-hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-hero{
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+
+
 
 .logo {
   font-family: var(--primary-font);
@@ -229,6 +243,11 @@ ul li {
 }
 
 .box:hover,
+.hero-section .box-row td:nth-child(2) .box {
+  border: 2px solid var(--color-secondary);
+}
+
+.box-hero:hover,
 .hero-section .box-row td:nth-child(2) .box {
   border: 2px solid var(--color-secondary);
 }
