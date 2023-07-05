@@ -217,15 +217,25 @@ ul li {
   margin-bottom: 40px;
 }
 
-.box {
-  border: 2px solid var(--tertiary-bg);
-  padding: 50px 30px;
-  background-color: var(--tertiary-bg);
-  margin: 0 10px;
-}
-
 .box p {
   width: 300px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.box {
+  flex: 0 0 30%;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: var(--tertiary-bg);
+}
+
+.box:nth-child(2){
+  border: 2px solid var(--color-secondary);
 }
 
 .box:hover,
