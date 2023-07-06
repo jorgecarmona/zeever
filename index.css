@@ -353,10 +353,6 @@ ul li {
   flex: 1;
 }
 
-.testimonial-container {
-  
-}
-
 .testimonial p {
   font-weight: var(--normal);
   font-size: 16px;
