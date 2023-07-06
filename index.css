@@ -292,56 +292,66 @@ ul li {
 
 /* About section */
 .about-section {
+  margin: 0 auto;
+  vertical-align: top;
   background-color: var(--primary-bg);
 }
 
-.about-grid td {
-  vertical-align: top;
-  padding: 0 10px;
+.container {
+display: flex;
 }
 
-.about-grid td:last-child div:first-child {
-  margin-bottom: 20px;
+.left-column {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
 }
 
-.about-grid .left,
-.about-grid .top,
-.about-grid .bottom {
-  position: relative;
+.right-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
 }
 
-.about-grid .left .image-caption {
-  position: absolute;
-  top: 500px;
-  left: 20px;
+.top-photo {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
 }
 
-.about-grid .top .image-caption,
-.about-grid .bottom .image-caption {
-  position: absolute;
-  top: 200px;
-  left: 20px;
+.bottom-photo {
+  margin-top: 25px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
 }
 
-.about-grid td:last-child div.image-caption:last-child {
-  position: absolute;
-  top: 200px;
-  left: 20px;
-}
-
-.image-caption h4,
-.image-caption p,
-.about-text-block h4 {
+.image-caption {
   text-transform: capitalize;
+  position: absolute;
+  margin-left: 10px;
 }
 
-.about-section table:last-child {
-  margin-top: 100px;
+.about-text-block {
+  padding-right: 40px;
 }
 
-.about-section table:last-child td {
-  padding-right: 60px;
+.box-about {
+  background-color: var(--primary-bg);
+  display: flex;
+  text-align: start;
+  flex-direction: row;
+  border: hidden;
+  padding: 50px 0;
+
 }
+
 
 /* Testimonials Section */
 .testimonials-section {
