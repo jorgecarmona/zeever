@@ -298,13 +298,13 @@ display: flex;
   justify-content: end;
 }
 
-.right-column{
+.right-column {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
 }
 
-.top-photo{
+.top-photo {
   display: flex;
   align-content: flex-start;
   flex-direction: column;
@@ -312,7 +312,7 @@ display: flex;
   justify-content: end;
 }
 
-.bottom-photo{
+.bottom-photo {
   margin-top: 25px;
   display: flex;
   align-content: flex-start;
@@ -321,21 +321,26 @@ display: flex;
   justify-content: end;
 }
 
-.image-caption{
+.image-caption {
   text-transform: capitalize;
   position: absolute;
   margin-left: 10px;
 }
 
-.box-about{
+.about-text-block {
+  padding-right: 40px;
+}
+
+.box-about {
   background-color: var(--primary-bg);
   display: flex;
   text-align: start;
   flex-direction: row;
   border: hidden;
-  padding: 50px;
-  margin: 0 50px;
+  padding: 50px 0;
+
 }
+
 
 /* Testimonials Section */
 .testimonials-section {
