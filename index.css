@@ -464,7 +464,8 @@ ul li {
 }
 
 .footer-menu div {
-  flex: 1;
+  flex: 2;
+  justify-content: center;
 }
 
 .footer-menu div:first-child {
@@ -479,6 +480,8 @@ ul li {
   line-height: 1.375rem;
   color: var(--white);
   margin: 30px 0 20px;
+  text-align: center;
+  width: 200px;
 }
 
 .footer-menu-block ul {
@@ -488,6 +491,7 @@ ul li {
 
 .footer-menu-block ul li {
   display: block;
+   left: 60px;
 }
 
 .copyright-social {
