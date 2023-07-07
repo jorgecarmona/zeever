@@ -156,7 +156,6 @@ ul li {
 .box-hero{
   width: 30%;
   padding: 20px;
-  border: 1px solid #ccc;
   text-align: center;
 }
 
@@ -228,10 +227,16 @@ ul li {
 }
 
 .hero-container h5, .cta {
-  margin-bottom: 40px;
+  margin-bottom: 90px;
+}
+
+.box-row {
+  display: flex;
 }
 
 .box {
+  flex: 1;
+  display: flex wrap;
   border: 2px solid var(--tertiary-bg);
   padding: 50px 30px;
   background-color: var(--tertiary-bg);
@@ -243,12 +248,7 @@ ul li {
 }
 
 .box:hover,
-.hero-section .box-row td:nth-child(2) .box {
-  border: 2px solid var(--color-secondary);
-}
-
-.box-hero:hover,
-.hero-section .box-row td:nth-child(2) .box {
+.hero-section .box-row div:nth-child(2) .box {
   border: 2px solid var(--color-secondary);
 }
 
