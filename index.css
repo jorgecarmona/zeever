@@ -449,12 +449,9 @@ ul li {
 }
 
 .footer-section {
+  width: 100%;
   background-color: var(--primary-bg);
   margin: 39px 0 0
-}
-
-.footer-section {
-  width: 100%;
 }
 
 .footer-menu { 
@@ -464,13 +461,14 @@ ul li {
 }
 
 .footer-menu div {
-  flex: 2;
+  flex: 1;
   justify-content: center;
 }
 
 .footer-menu div:first-child {
-  /*width: 30%;*/
-  flex: 1.7;
+  flex: 0;
+  flex-basis: 300px;
+  padding-right: 40px;
 }
 
 .footer-menu-block h6 {
