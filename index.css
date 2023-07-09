@@ -141,28 +141,12 @@ ul li {
   padding: 15px;
   overflow: hidden;
 }
+
 .hero-section {
   background-color: var(--primary-bg);
   background-image: url(./img/flamingos.svg);
   padding: 0 0 180px;
   background-repeat: no-repeat;
-}
-
-.flex-hero-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.flex-hero-container .box-hero:nth-child(2) {
-  border: 2px solid var(--color-secondary);
-}
-
-.box-hero{
-  width: 30%;
-  padding: 50px 30px;
-  margin: 0 10px;
-  background-color: var(--tertiary-bg);
-  text-align: center;
 }
 
 .logo {
@@ -232,12 +216,18 @@ ul li {
 }
 
 .hero-container h5, .cta {
-  margin-bottom: 40px;
+  margin-bottom: 90px;
+}
+
+.box-row {
+  display: flex;
+}
+
+.box-row .box:nth-child(2) {
+  border: 2px solid var(--color-secondary);
 }
 
 .box {
-  flex: 1;
-  display: flex wrap;
   border: 2px solid var(--tertiary-bg);
   padding: 50px 30px;
   background-color: var(--tertiary-bg);
@@ -249,7 +239,7 @@ ul li {
 }
 
 .box:hover,
-.hero-section .box-row div:nth-child(2) .box {
+.hero-section .box-row td:nth-child(2) .box {
   border: 2px solid var(--color-secondary);
 }
 
