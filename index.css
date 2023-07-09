@@ -153,15 +153,17 @@ ul li {
   justify-content: space-between;
 }
 
-.box-hero{
-  width: 30%;
-  padding: 20px;
-  border: 1px solid #ccc;
-  text-align: center;
+.flex-hero-container .box-hero:nth-child(2) {
+  border: 2px solid var(--color-secondary);
 }
 
-
-
+.box-hero{
+  width: 30%;
+  padding: 50px 30px;
+  margin: 0 10px;
+  background-color: var(--tertiary-bg);
+  text-align: center;
+}
 
 .logo {
   font-family: var(--primary-font);
