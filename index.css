@@ -219,6 +219,14 @@ ul li {
   margin-bottom: 90px;
 }
 
+.box-row {
+  display: flex;
+}
+
+.box-row .box:nth-child(2) {
+  border: 2px solid var(--color-secondary);
+}
+
 .box {
   border: 2px solid var(--tertiary-bg);
   padding: 50px 30px;
